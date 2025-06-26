@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:stopwatch/stopwatch.dart';
+//import 'package:stopwatch/stopwatch.dart';
+
+import 'login_screen.dart';
 
 void main() => runApp(const StopWatchApp());
 
@@ -10,7 +12,7 @@ class StopWatchApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: StopWatch(),
+      home: LoginScreen(),
     );
   }
 }
